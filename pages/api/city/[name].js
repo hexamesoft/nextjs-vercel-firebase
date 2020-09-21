@@ -11,5 +11,5 @@ export default (req, res) => {
   //   .catch((error) => {
   //     res.json({ error });
   //   });
-  res.json({query: JSON.stringify(req.query), population: 12312321}, "body": JSON.stringify(req.body))
+  res.json({query: JSON.stringify(req.query), population: 12312321, "body": JSON.stringify(req.body)})
 };
